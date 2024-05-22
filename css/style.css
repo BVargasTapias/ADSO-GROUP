@@ -66,7 +66,9 @@ section{
 }
 
 #p2{
-    width: 100%;
+    width: 30%;
+    margin-right: 10%; 
+    margin-left: 10%;
     color: #000;
     text-align: justify;
 }
@@ -85,9 +87,9 @@ section{
 
 #mostrador2{
     transition: .3s;
-    width: 90%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 40%;
+    /*margin-left: 10%;*/
+    margin-right: 10%;
 }
 
 #mostrador2:hover{
@@ -97,6 +99,7 @@ section{
 
 .lol{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
