@@ -56,11 +56,12 @@ section{
 .titulos{
     font-size: 45px;
     color: #000;
-    margin: 10px 0 10px 35%;
+    margin: 2%;
+    /*margin: 10px 0 10px 35%;*/
 }
 
 #p1{
-    width: 70%;
+    width: 30%;
     margin-right: 10%; 
     margin-left: 10%;
 }
@@ -69,14 +70,15 @@ section{
     width: 30%;
     margin-right: 10%; 
     margin-left: 10%;
+    margin-bottom: 5%;
     color: #000;
     text-align: justify;
 }
 
 #mostrador{
     transition: .3s;
-    width: 50%;
-    margin-left: 40%;
+    width: 40%;
+    /*margin-left: 40%;*/
     margin-right: 10%;
 }
 
@@ -88,6 +90,7 @@ section{
 #mostrador2{
     transition: .3s;
     width: 40%;
+    margin-bottom: 5%;
     /*margin-left: 10%;*/
     margin-right: 10%;
 }
@@ -99,7 +102,11 @@ section{
 
 .lol{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cambio {
+    display: flex;
     align-items: center;
 }
 
