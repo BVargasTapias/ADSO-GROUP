@@ -6,13 +6,21 @@ $(document).ready(function () {
     $("#primero").dblclick(function () {
         $("#cont").slideUp()
     })
-    $("#prueba").hide()
-    $("#prueba1").hide()
-    $("#prueba2").hide()
+    $("#card4").hide()
+    $("#card5").hide()
+    $("#cuatro").hover(function () {
+        $("#card4").slideDown()
+        $("#card5").slideDown()
+        $("#card1").hide()
+        $("#card2").hide()
+        $("#card3").hide()
+    })
     $("#tres").hover(function () {
-        $("#prueba").slideDown()
-        $("#prueba1").slideDown()
-        $("#prueba2").slideDown()
+        $("#card4").hide()
+        $("#card5").hide()
+        $("#card1").slideDown()
+        $("#card2").slideDown()
+        $("#card3").slideDown()
     })
 
 })
